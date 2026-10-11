@@ -1,0 +1,11 @@
+Check,Result
+Orders dataset loaded,True
+Details dataset loaded,True
+Target dataset loaded,True
+Orders has unique Order IDs,True
+Order dates converted successfully,False
+Details merged with Orders,True
+Unmatched detail Order IDs,0
+Missing values in Orders,307
+Missing values in Details,0
+Missing values in Target,5

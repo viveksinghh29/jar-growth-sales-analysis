@@ -1,0 +1,17 @@
+Check,Result,Detail
+Merge kept every detail row,PASS,1500 -> 1500
+Merge did not change total Amount,PASS,
+Merge did not change total Profit,PASS,
+No unmatched Order IDs,PASS,
+Unique orders in Sales equal Orders,PASS,
+Category sales add up to total sales,PASS,
+Category profit adds up to total profit,PASS,
+Category shares add up to 100%,PASS,
+Monthly sales add up to total sales,FAIL,
+State sales add up to total sales,PASS,
+City sales add up to total sales,PASS,
+Furniture actuals equal Furniture sales in the data,FAIL,
+Targets matched on year and month (no missing),PASS,
+Target table has no duplicate month and category,PASS,
+No division by zero in margins or achievement,PASS,
+Charts saved,PASS,21 files so far

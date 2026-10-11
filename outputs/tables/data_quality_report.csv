@@ -1,0 +1,4 @@
+Dataset,Rows,Columns,Missing Values,Duplicate Rows
+Orders,500,5,307,0
+Details,1500,6,0,0
+Target,37,4,4,0

@@ -1,0 +1,9 @@
+Metric,Value,Denominator used
+Line items (detail rows),1500.0,-
+Unique orders,500.0,-
+Average sales per order,863.004,unique orders
+Average profit per order,47.91,unique orders
+Average lines per order,3.0,unique orders
+Loss-making lines,503.0,-
+Loss-making lines (% of lines),33.53333333333333,all lines
+Overall profit margin (%),5.551538579195461,total sales

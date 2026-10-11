@@ -1,0 +1,12 @@
+Dataset,Check,Records affected,Action
+Orders,Whitespace in text columns,500,Trimmed
+Details,Whitespace in text columns,0,None needed
+Target,Whitespace in text columns,36,Trimmed
+Orders and Details,Malformed order IDs,0,None needed
+Details,Amount or Quantity <= 0,0,None needed
+Details,Negative profit lines,503,Preserved (real losses)
+Details,Loss larger than line sales,14,Preserved and flagged
+Details,Profit larger than line sales,0,None needed
+Details,Large Amount values (IQR rule),155,Kept and flagged (large purchases are plausible)
+Orders and Details,"Merge: rows, Amount and Profit totals preserved",0,"Validated (many-to-one, 0 unmatched)"
+Orders,City Delhi listed under Madhya Pradesh,3,"State_Analysis column added, original State kept"

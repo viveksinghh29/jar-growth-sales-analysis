@@ -1,0 +1,18 @@
+Dataset,Column,Data type,Meaning
+Orders,Order ID,object,"Order identifier, one row per order"
+Orders,Order Date,datetime64[ns],Date the order was placed
+Orders,CustomerName,object,"Customer first name (repeats across orders, not a unique key)"
+Orders,State,object,State or territory of the order
+Orders,City,object,City of the order
+Details,Order ID,object,Links each line item to its order (repeats for multi-item orders)
+Details,Amount,int64,Sales value of the line item
+Details,Profit,int64,Profit of the line item (negative means a loss)
+Details,Quantity,int64,Units on the line item
+Details,Category,object,Product category
+Details,Sub-Category,object,Product sub-category
+Target,Month,object,
+Target,Order Date,object,
+Target,Category,object,Category the target applies to
+Target,Target,float64,Monthly sales target for the category
+Target,Month_Number,float64,
+Target,Year_Month,period[M],

@@ -27,6 +27,7 @@ Jar-Growth-Sales-Analysis/
 │   ├── Order_Details.csv
 │   └── Sales-target.csv
 ├── sales_analysis.ipynb
+├── outputs/
 ├── README.md
 └── .gitignore
 ```
@@ -50,14 +51,3 @@ Jar-Growth-Sales-Analysis/
 
 4. Open the notebook in VS Code or Jupyter Notebook.
 5. Run the cells in order.
-
-Ensure the CSV files are available in the `datasets/` folder.
-
-## Key Findings
-Add the verified findings from the completed analysis here.
-
-## Business Recommendations
-Add practical, data-supported recommendations based on the analysis results.
-
-## Project Context
-Prepared as part of the Jar Growth Intern Assignment.
